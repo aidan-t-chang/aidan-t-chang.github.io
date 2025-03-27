@@ -1,0 +1,164 @@
+.amiri {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+haed {
+    font-family: "Amiri", serif;
+}
+body {
+    font-family: "Amiri", serif;
+    background-color: #f5f5ec;
+    margin-top: 5%;
+}
+
+div {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.element {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+
+    transition: .2s;
+}
+
+.element:hover {
+    font-size: 17px;
+}
+
+.pp {
+    line-height: 30px;
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.pp2 {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.fakeheader {
+    font-size: 25px;
+    text-align: center;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100vh;
+    background-color: black;
+    position: absolute; 
+    left: 50%; 
+    margin-left: -0.5px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link2 {
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.link2:hover {
+    color:blue;
+}
+
+.pp2 a:hover {
+    color: #da99f2;
+    /* color: #2c4c7d; */
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    padding: 5px;
+    border-radius: 3px;
+    border-style: solid;
+}
+
+td {
+    padding: 5px;
+}
+
+.done {
+    color: #1bc904;
+}
+
+.progress {
+    color: #c9c304;
+}
+
+.not {
+    color: #ff0019;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.link3 {
+    background-image: linear-gradient(#e9acff, #e9acff);
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    color: black;
+    
+    background-position: bottom;
+    transition: .5s;
+}
+
+.link3:hover {
+    background-size: 100% 100%;
+}
+
+.submit {
+    text-decoration: none;
+}
+
+.form {
+    color: black;
+}
+
+input {
+    margin: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    caret-color: #da99f2;
+}
+
+.submit {
+    background-image: linear-gradiant(#da99f2, #da99f2);
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.submit:hover {
+    background-color: #da99f2;
+}
+
+label {
+    font-size: 20px;
+}
